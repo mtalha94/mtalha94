@@ -1,58 +1,73 @@
 # Hi, I'm Talha 👋
 
-I work as an IoT engineer, focused on embedded systems and the software that supports real devices in production environments.
+I develop embedded systems and IoT solutions with a focus on firmware design, device connectivity, and backend integration.
 
-Most of my work is close to the hardware: microcontrollers, peripherals, networking stacks, and the interfaces that connect devices to backend services. I value systems that are reliable, understandable, and practical to debug.
+My work spans microcontroller programming, real-time embedded systems, and the software infrastructure that supports connected hardware in production.
 
 ---
 
-## What I work with
+## What I Work With
 
-**Embedded / Firmware**
-- ESP32 (Arduino & ESP-IDF)
-- STM32 (bare-metal and low-level development)
-- I2S audio, cameras, sensors
-- USB device and host fundamentals
-- Memory management, power modes, and timing constraints
+**Embedded Systems & Firmware**
+- ESP32 (Arduino framework and ESP-IDF)
+- STM32 (bare-metal, LWIP networking stack)
+- nRF series (Nordic Semiconductor)
+- Peripheral drivers: I2S, cameras (OV2640, OV5640), sensors, PIR, keypads
+- OTA firmware updates and bootloader management
+- PSRAM and memory-constrained programming
 
-**Networking**
-- HTTP, WebSockets, ESP-NOW
+**Networking & Communication**
+- WebSockets and HTTP servers
 - MQTT and device-to-server communication
-- DHCP, basic TCP/IP behavior, and packet-level debugging
-- USB-based networking (e.g. RNDIS-style workflows)
+- WiFi and ESP-NOW
+- TCP/IP stack and LWIP integration
+- Serial communication and USB protocol basics
 
 **Backend & Tooling**
-- FastAPI / Flask
-- Firebase
-- Python for backend services and tooling
+- FastAPI and Flask
+- Python scripting for device testing and automation
+- Firebase integration
+- GitHub Actions CI/CD for firmware builds and OTA distribution
 
 **Languages & Tools**
 - C / C++
 - Python
-- PlatformIO, VS Code
-- Logic analyzers, serial debugging, and protocol inspection
+- PlatformIO, ESP-IDF
+- Serial debugging, logic analyzers, packet inspection
 
 ---
 
-## How I approach systems
+## Project Focus Areas
 
-- Prefer simple, explicit designs over clever abstractions  
-- Avoid unnecessary RTOS usage when the problem doesn’t require it  
-- Debug methodically: memory, timing, state, and data flow  
-- Optimize only after correctness and clarity are established  
+**Device Projects**
+- Solar tracking systems with automated motor control
+- IoT wearables: posture correction devices, athlete performance monitors, smart watches
+- Camera systems: AI-capable streaming, WebRTC clients
+- Environmental sensors: water leak detection, air quality monitoring
 
-I’m comfortable working without an RTOS when appropriate and reasoning about system behavior directly from the hardware up.
+**Infrastructure & Integration**
+- Firmware OTA systems with GitHub CI/CD
+- WebSocket-based real-time device-to-web communication
+- Audio streaming on constrained hardware
+- Device diagnostic and monitoring tools
+
+**Experimentation**
+- TinyML on embedded devices
+- SIMD optimization on ESP32-S3
+- Low-power device modes and memory optimization
+- Barcode decoding on microcontrollers
 
 ---
 
-## Interests
+## How I Work
 
-- Embedded networking and device connectivity
-- Audio and data streaming on constrained hardware
-- Low-level performance and memory behavior
-- Understanding protocols beyond the API surface
-- Reading fiction and building systems that bridge software and the physical world
+- Start with correct behavior before optimization
+- Prefer explicit, maintainable code over clever abstractions
+- Debug systematically: understand memory, timing, and state flow
+- Build systems that work reliably at the hardware level first
+
+I'm comfortable reasoning about system behavior from the hardware up, and I work effectively across the full stack from embedded C to Python backends.
 
 ---
 
-This profile reflects ongoing work, experiments, and areas of focus.
+This profile reflects the breadth of my work across IoT, firmware, and supporting infrastructure.
